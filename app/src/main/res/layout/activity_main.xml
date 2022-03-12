@@ -26,4 +26,15 @@
         android:onClick="moveTier"
         android:src="@drawable/ic_tiervector" />
 
+    <ImageView
+        android:id="@+id/puase_play_imageview"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_below="@id/imageView"
+        android:onClick="PausePlayReversible"
+        android:src="@drawable/avd_play_pause"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="100dp"
+        android:layout_marginRight="5dp" />
+
 </RelativeLayout>

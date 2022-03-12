@@ -16,6 +16,8 @@ public class MainActivity extends AppCompatActivity {
     private ImageView imageView;
     private ImageView tierImage;
     private AnimatedVectorDrawable animatedVectorDrawable;
+    private ImageView pausePlay;
+    private boolean isPlay = true;   // for moving between the state of play and pause
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -26,6 +28,8 @@ public class MainActivity extends AppCompatActivity {
         imageView.setBackgroundResource(R.drawable.animatedvectordrawable);
 
         tierImage = findViewById(R.id.tier_image);
+
+        pausePlay = findViewById(R.id.puase_play_imageview);
     }
 
     @Override
@@ -49,4 +53,45 @@ public class MainActivity extends AppCompatActivity {
         motion.playTogether(rotateTier,travelHorizontal);
         motion.start();
     }
+
+    // created with shape shifter  so here pass drawable with setImageResource and also set it in xml code
+    public void PausePlayReversible(View view) {
+
+        if(isPlay) {
+            // call the method play to pause
+            playToPause();
+            isPlay = false;
+        }
+
+        else {
+            PauseToPlay();
+            isPlay = true;
+        }
+
+    }
+
+    private void playToPause() {
+        // setting up the image Resource of play to pause
+        pausePlay.setImageResource(R.drawable.avd_play_pause);
+
+        Drawable drawable = pausePlay.getDrawable();
+
+        if(drawable instanceof AnimatedVectorDrawable) {
+            animatedVectorDrawable = (AnimatedVectorDrawable) drawable;
+            animatedVectorDrawable.start();
+        }
+    }
+
+    private void PauseToPlay() {
+        // this time set the resource of the pause to play avd
+        pausePlay.setImageResource(R.drawable.avd_pause_play);
+
+        Drawable drawable = pausePlay.getDrawable();
+
+        if(drawable instanceof AnimatedVectorDrawable) {
+            animatedVectorDrawable = (AnimatedVectorDrawable) drawable;
+            animatedVectorDrawable.start();
+        }
+    }
+
 }

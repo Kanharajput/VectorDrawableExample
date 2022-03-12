@@ -3,12 +3,34 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/hp/AndroidStudioProjects/VectorDrawableExample/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.20888661899897856" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/VectorDrawableExample/app/src/main/res/drawable/animate_circle.xml" value="0.21302083333333333" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/VectorDrawableExample/app/src/main/res/drawable/animate_play_button.xml" value="0.21302083333333333" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/VectorDrawableExample/app/src/main/res/drawable/animated_play_button.xml" value="0.20888661899897856" />
         <entry key="..\:/Users/hp/AndroidStudioProjects/VectorDrawableExample/app/src/main/res/drawable/animatedvectordrawable.xml" value="0.16296296296296298" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/VectorDrawableExample/app/src/main/res/drawable/as_play_pause.xml" value="0.21302083333333333" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/VectorDrawableExample/app/src/main/res/drawable/avd_pause_play.xml" value="0.2125" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/VectorDrawableExample/app/src/main/res/drawable/avd_pause_to_play.xml" value="0.21302083333333333" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/VectorDrawableExample/app/src/main/res/drawable/avd_play_pause.xml" value="0.2125" />
         <entry key="..\:/Users/hp/AndroidStudioProjects/VectorDrawableExample/app/src/main/res/drawable/ic_android_black_24dp.xml" value="0.16296296296296298" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/VectorDrawableExample/app/src/main/res/drawable/ic_baseline_circle_24.xml" value="0.20888661899897856" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/VectorDrawableExample/app/src/main/res/drawable/ic_baseline_pause_24.xml" value="0.21302083333333333" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/VectorDrawableExample/app/src/main/res/drawable/ic_baseline_play_arrow_24.xml" value="0.20888661899897856" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/VectorDrawableExample/app/src/main/res/drawable/ic_circle.xml" value="0.20888661899897856" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/VectorDrawableExample/app/src/main/res/drawable/ic_circle_24.xml" value="0.21302083333333333" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/VectorDrawableExample/app/src/main/res/drawable/ic_clockvector.xml" value="0.19" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/VectorDrawableExample/app/src/main/res/drawable/ic_launcher_background.xml" value="0.20888661899897856" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/VectorDrawableExample/app/src/main/res/drawable/ic_pause.xml" value="0.21302083333333333" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/VectorDrawableExample/app/src/main/res/drawable/ic_play_button.xml" value="0.21302083333333333" />
         <entry key="..\:/Users/hp/AndroidStudioProjects/VectorDrawableExample/app/src/main/res/drawable/ic_tiervector.xml" value="0.16296296296296298" />
         <entry key="..\:/Users/hp/AndroidStudioProjects/VectorDrawableExample/app/src/main/res/drawable/my_vector.xml" value="0.16944444444444445" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/VectorDrawableExample/app/src/main/res/drawable/play_button.xml" value="0.20888661899897856" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/VectorDrawableExample/app/src/main/res/drawable/play_circle.xml" value="0.20888661899897856" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/VectorDrawableExample/app/src/main/res/drawable/vc_pause.xml" value="0.21302083333333333" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/VectorDrawableExample/app/src/main/res/drawable/vc_play.xml" value="0.21302083333333333" />
         <entry key="..\:/Users/hp/AndroidStudioProjects/VectorDrawableExample/app/src/main/res/drawable/vectordrawable.xml" value="0.2" />
-        <entry key="..\:/Users/hp/AndroidStudioProjects/VectorDrawableExample/app/src/main/res/layout/activity_main.xml" value="0.19270833333333334" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/VectorDrawableExample/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/VectorDrawableExample/app/src/main/res/layout/clock_activity.xml" value="0.18" />
       </map>
     </option>
   </component>
